@@ -1,11 +1,4 @@
-class Pearl < Discordrb::Bot
-  class << self
-    def run
-      bot = new(token: "")
-      bot.message(content: "Ping!") do |event|
-        event.respond "Pong!"
-      end
-      bot.run
-    end
-  end
+require_relative 'pearl/config'
+require_relative 'pearl/bot'
+module Pearl
 end
