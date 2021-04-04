@@ -8,4 +8,3 @@ Pearl.configure do |config|
 end
 
 Pearl::Bot.run
-
