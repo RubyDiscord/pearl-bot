@@ -1,5 +1,6 @@
 ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__)
 require 'bundler/setup'
+DB = 'config/database.yml'
 
 APP_ENV = ENV['DISCORD_ENV']&.to_sym || :development
 Bundler.require(:default, APP_ENV)
