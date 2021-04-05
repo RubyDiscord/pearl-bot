@@ -1,6 +1,3 @@
-require_relative 'events/ping'
-require_relative 'commands/ping'
-
 module Pearl
   class Bot < Discordrb::Commands::CommandBot
     def initialize(args)

@@ -1,9 +1,7 @@
-require 'pry'
-
 module Pearl
   module Events
     module Ping
-      extend Discordrb::EventContainer
+      extend ::Discordrb::EventContainer
 
       message(content: 'Ping!') do |event|
         event.channel.send_message 'Pong!'

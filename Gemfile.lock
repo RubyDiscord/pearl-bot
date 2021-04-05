@@ -32,6 +32,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    sequel (5.43.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
@@ -39,6 +40,7 @@ GEM
     websocket-client-simple (0.3.0)
       event_emitter
       websocket
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
@@ -47,6 +49,8 @@ PLATFORMS
 DEPENDENCIES
   discordrb
   pry (~> 0.14.0)
+  sequel (~> 5.43)
+  zeitwerk (~> 2.4)
 
 BUNDLED WITH
    2.2.3
