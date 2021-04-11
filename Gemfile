@@ -11,5 +11,6 @@ gem 'sequel_pg', '~> 1.14', require: "sequel"
 
 
 group :development do
+  gem 'byebug', '~> 11.1'
   gem 'pry', '~> 0.14.0'
 end
