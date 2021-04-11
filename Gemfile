@@ -7,8 +7,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem 'discordrb'
 gem 'zeitwerk', '~> 2.4'
 
-gem 'sequel_pg', '~> 1.14', require: "sequel"
-
+gem 'sequel_pg', '~> 1.14', require: 'sequel'
 
 group :development do
   gem 'byebug', '~> 11.1'

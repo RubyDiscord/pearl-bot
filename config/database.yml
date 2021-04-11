@@ -1,0 +1,6 @@
+development:
+  adapter: postgres
+  host: db
+  port: 5432
+  username: postgres
+  database: pearl_db
